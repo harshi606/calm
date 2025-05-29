@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pause, My Love</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="stars"></div>
+
+  <div class="card-container" onclick="flipCard()">
+    <div class="card">
+      <div class="front">
+        <h1>🌟 To My Hero</h1>
+        <p>Tap to open. There’s magic inside.</p>
+      </div>
+      <div class="back">
+        <h2>Pause... Just Breathe</h2>
+        <p id="message" class="hidden">
+          I know work has been heavy lately...<br><br>
+          So here's a *hug in code*: 🤗<br><br>
+          You're doing the best you can — and that’s always enough for me.<br><br>
+          Come back to me when you’re tired. I’ll be here, always your peace. 💌
+        </p>
+        <div class="hug-button" onclick="sendHug(event)">💞 Send Hug</div>
+        <div class="hug-animation hidden">🤗</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
